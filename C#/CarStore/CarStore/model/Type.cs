@@ -6,10 +6,13 @@ namespace CarStore.model
 {
     enum Type
     {
+      
        Sport,
        Coupee,
        Kombi,
        Kleinwagen,
        Cabrio
+
+        
     }
 }
