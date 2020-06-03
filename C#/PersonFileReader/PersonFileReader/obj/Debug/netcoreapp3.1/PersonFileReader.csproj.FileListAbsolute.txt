@@ -1,0 +1,13 @@
+C:\Users\DCV\Desktop\HelloWorld\Spezialtrack-C-\C#\PersonFileReader\PersonFileReader\obj\Debug\netcoreapp3.1\PersonFileReader.csprojAssemblyReference.cache
+C:\Users\DCV\Desktop\HelloWorld\Spezialtrack-C-\C#\PersonFileReader\PersonFileReader\obj\Debug\netcoreapp3.1\PersonFileReader.AssemblyInfoInputs.cache
+C:\Users\DCV\Desktop\HelloWorld\Spezialtrack-C-\C#\PersonFileReader\PersonFileReader\obj\Debug\netcoreapp3.1\PersonFileReader.AssemblyInfo.cs
+C:\Users\DCV\Desktop\HelloWorld\Spezialtrack-C-\C#\PersonFileReader\PersonFileReader\obj\Debug\netcoreapp3.1\PersonFileReader.csproj.CoreCompileInputs.cache
+C:\Users\DCV\Desktop\HelloWorld\Spezialtrack-C-\C#\PersonFileReader\PersonFileReader\bin\Debug\netcoreapp3.1\PersonFileReader.exe
+C:\Users\DCV\Desktop\HelloWorld\Spezialtrack-C-\C#\PersonFileReader\PersonFileReader\bin\Debug\netcoreapp3.1\PersonFileReader.deps.json
+C:\Users\DCV\Desktop\HelloWorld\Spezialtrack-C-\C#\PersonFileReader\PersonFileReader\bin\Debug\netcoreapp3.1\PersonFileReader.runtimeconfig.json
+C:\Users\DCV\Desktop\HelloWorld\Spezialtrack-C-\C#\PersonFileReader\PersonFileReader\bin\Debug\netcoreapp3.1\PersonFileReader.runtimeconfig.dev.json
+C:\Users\DCV\Desktop\HelloWorld\Spezialtrack-C-\C#\PersonFileReader\PersonFileReader\bin\Debug\netcoreapp3.1\PersonFileReader.dll
+C:\Users\DCV\Desktop\HelloWorld\Spezialtrack-C-\C#\PersonFileReader\PersonFileReader\bin\Debug\netcoreapp3.1\PersonFileReader.pdb
+C:\Users\DCV\Desktop\HelloWorld\Spezialtrack-C-\C#\PersonFileReader\PersonFileReader\obj\Debug\netcoreapp3.1\PersonFileReader.dll
+C:\Users\DCV\Desktop\HelloWorld\Spezialtrack-C-\C#\PersonFileReader\PersonFileReader\obj\Debug\netcoreapp3.1\PersonFileReader.pdb
+C:\Users\DCV\Desktop\HelloWorld\Spezialtrack-C-\C#\PersonFileReader\PersonFileReader\obj\Debug\netcoreapp3.1\PersonFileReader.genruntimeconfig.cache
