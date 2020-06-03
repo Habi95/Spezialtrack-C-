@@ -28,24 +28,25 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnHinzufügen = new System.Windows.Forms.Button();
             this.labelTranslation = new System.Windows.Forms.Label();
             this.tbGermanWord = new System.Windows.Forms.TextBox();
             this.tbEnglishWord = new System.Windows.Forms.TextBox();
             this.lbGermanWords = new System.Windows.Forms.ListBox();
             this.tbTranslation = new System.Windows.Forms.TextBox();
+            this.btnExportCSV = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // btnHinzufügen
             // 
-            this.button1.Location = new System.Drawing.Point(332, 53);
-            this.button1.Margin = new System.Windows.Forms.Padding(4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(100, 28);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Hinzufügen";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnHinzufügen.Location = new System.Drawing.Point(332, 53);
+            this.btnHinzufügen.Margin = new System.Windows.Forms.Padding(4);
+            this.btnHinzufügen.Name = "btnHinzufügen";
+            this.btnHinzufügen.Size = new System.Drawing.Size(100, 28);
+            this.btnHinzufügen.TabIndex = 0;
+            this.btnHinzufügen.Text = "Hinzufügen";
+            this.btnHinzufügen.UseVisualStyleBackColor = true;
+            this.btnHinzufügen.Click += new System.EventHandler(this.button1_Click);
             // 
             // labelTranslation
             // 
@@ -91,17 +92,28 @@
             this.tbTranslation.Size = new System.Drawing.Size(192, 22);
             this.tbTranslation.TabIndex = 5;
             // 
+            // btnExportCSV
+            // 
+            this.btnExportCSV.Location = new System.Drawing.Point(332, 89);
+            this.btnExportCSV.Name = "btnExportCSV";
+            this.btnExportCSV.Size = new System.Drawing.Size(100, 30);
+            this.btnExportCSV.TabIndex = 6;
+            this.btnExportCSV.Text = "Export CSV";
+            this.btnExportCSV.UseVisualStyleBackColor = true;
+            this.btnExportCSV.Click += new System.EventHandler(this.btnExportCSV_Click);
+            // 
             // BackGround
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnExportCSV);
             this.Controls.Add(this.tbTranslation);
             this.Controls.Add(this.lbGermanWords);
             this.Controls.Add(this.tbEnglishWord);
             this.Controls.Add(this.tbGermanWord);
             this.Controls.Add(this.labelTranslation);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnHinzufügen);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "BackGround";
             this.Text = "WörterBuch";
@@ -112,12 +124,13 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnHinzufügen;
         private System.Windows.Forms.Label labelTranslation;
         private System.Windows.Forms.TextBox tbGermanWord;
         private System.Windows.Forms.TextBox tbEnglishWord;
         private System.Windows.Forms.ListBox lbGermanWords;
         private System.Windows.Forms.TextBox tbTranslation;
+        private System.Windows.Forms.Button btnExportCSV;
     }
 }
 

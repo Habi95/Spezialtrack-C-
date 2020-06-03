@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -18,7 +19,7 @@ namespace WoerterBuch
             InitializeComponent();
         }
 
-        
+
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -31,8 +32,8 @@ namespace WoerterBuch
                 UpdateTranslation();
             }
         }
-        
-        private void UpdateTranslation ()
+
+        private void UpdateTranslation()
         {
             lbGermanWords.DataSource = germanToEnglishDict.Keys.ToList();
         }
@@ -43,6 +44,21 @@ namespace WoerterBuch
             if (!string.IsNullOrEmpty(selectedWord) && germanToEnglishDict.ContainsKey(selectedWord))
             {
                 tbTranslation.Text = germanToEnglishDict[selectedWord];
+            }
+        }
+
+        private void btnExportCSV_Click(object sender, EventArgs e)
+        {
+            DictFileWriter();
+        }
+
+        private void DictFileWriter()
+        {
+            File.WriteAllText("C:\\Users\\DCV\\Desktop\\HelloWorld\\Spezialtrack-C-\\C#\\WörterBuch.txt", string.Empty);
+            foreach (KeyValuePair<string, string> entry in germanToEnglishDict)
+            {
+                System.IO.File.AppendAllText("C:\\Users\\DCV\\Desktop\\HelloWorld\\Spezialtrack-C-\\C#\\WörterBuch.txt", string.Format("{0} {1} {2}", entry.Key, entry.Value, Environment.NewLine));
+
             }
         }
     }
