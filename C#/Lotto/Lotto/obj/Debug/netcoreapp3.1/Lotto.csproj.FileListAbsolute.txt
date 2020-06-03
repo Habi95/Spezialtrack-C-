@@ -1,0 +1,13 @@
+C:\Users\DCV\Desktop\HelloWorld\Spezialtrack-C-\C#\Lotto\Lotto\bin\Debug\netcoreapp3.1\Lotto.exe
+C:\Users\DCV\Desktop\HelloWorld\Spezialtrack-C-\C#\Lotto\Lotto\bin\Debug\netcoreapp3.1\Lotto.deps.json
+C:\Users\DCV\Desktop\HelloWorld\Spezialtrack-C-\C#\Lotto\Lotto\bin\Debug\netcoreapp3.1\Lotto.runtimeconfig.json
+C:\Users\DCV\Desktop\HelloWorld\Spezialtrack-C-\C#\Lotto\Lotto\bin\Debug\netcoreapp3.1\Lotto.runtimeconfig.dev.json
+C:\Users\DCV\Desktop\HelloWorld\Spezialtrack-C-\C#\Lotto\Lotto\bin\Debug\netcoreapp3.1\Lotto.dll
+C:\Users\DCV\Desktop\HelloWorld\Spezialtrack-C-\C#\Lotto\Lotto\bin\Debug\netcoreapp3.1\Lotto.pdb
+C:\Users\DCV\Desktop\HelloWorld\Spezialtrack-C-\C#\Lotto\Lotto\obj\Debug\netcoreapp3.1\Lotto.csprojAssemblyReference.cache
+C:\Users\DCV\Desktop\HelloWorld\Spezialtrack-C-\C#\Lotto\Lotto\obj\Debug\netcoreapp3.1\Lotto.AssemblyInfoInputs.cache
+C:\Users\DCV\Desktop\HelloWorld\Spezialtrack-C-\C#\Lotto\Lotto\obj\Debug\netcoreapp3.1\Lotto.AssemblyInfo.cs
+C:\Users\DCV\Desktop\HelloWorld\Spezialtrack-C-\C#\Lotto\Lotto\obj\Debug\netcoreapp3.1\Lotto.csproj.CoreCompileInputs.cache
+C:\Users\DCV\Desktop\HelloWorld\Spezialtrack-C-\C#\Lotto\Lotto\obj\Debug\netcoreapp3.1\Lotto.dll
+C:\Users\DCV\Desktop\HelloWorld\Spezialtrack-C-\C#\Lotto\Lotto\obj\Debug\netcoreapp3.1\Lotto.pdb
+C:\Users\DCV\Desktop\HelloWorld\Spezialtrack-C-\C#\Lotto\Lotto\obj\Debug\netcoreapp3.1\Lotto.genruntimeconfig.cache
