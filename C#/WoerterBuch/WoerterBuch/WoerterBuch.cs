@@ -17,6 +17,8 @@ namespace WoerterBuch
         public BackGround()
         {
             InitializeComponent();
+            ImportCSV();
+            UpdateTranslation();
         }
 
 
@@ -30,6 +32,7 @@ namespace WoerterBuch
             {
                 germanToEnglishDict.Add(germanWord, englishWord);
                 UpdateTranslation();
+                
             }
         }
 
@@ -57,8 +60,19 @@ namespace WoerterBuch
             File.WriteAllText("C:\\Users\\DCV\\Desktop\\HelloWorld\\Spezialtrack-C-\\C#\\WörterBuch.txt", string.Empty);
             foreach (KeyValuePair<string, string> entry in germanToEnglishDict)
             {
-                System.IO.File.AppendAllText("C:\\Users\\DCV\\Desktop\\HelloWorld\\Spezialtrack-C-\\C#\\WörterBuch.txt", string.Format("{0} {1} {2}", entry.Key, entry.Value, Environment.NewLine));
+                System.IO.File.AppendAllText("C:\\Users\\DCV\\Desktop\\HelloWorld\\Spezialtrack-C-\\C#\\WörterBuch.txt", string.Format("{0}{1}{2}{3}", entry.Key, ";", entry.Value, "\n", Environment.NewLine));
 
+            }
+        }
+
+ 
+        private void ImportCSV()
+        {
+            string[] wordList = File.ReadAllLines("C:\\Users\\DCV\\Desktop\\HelloWorld\\Spezialtrack-C-\\C#\\WörterBuch.txt");
+            foreach (string word in wordList)
+            {
+                string[] wordColumns = word.Split(';');
+                germanToEnglishDict.Add(wordColumns[0],wordColumns[1]);
             }
         }
     }

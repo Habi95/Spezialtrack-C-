@@ -1,1 +1,8 @@
-Auto Car 
+Flasche;Bottle
+Gurke;Cucumber
+Tisch;Desk
+Tastatur;Keyboard
+Stuhl;Chair
+Hallo;Hello 
+Kopfhörer;Headset
+Fenster;Window

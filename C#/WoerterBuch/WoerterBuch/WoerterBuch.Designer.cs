@@ -39,7 +39,7 @@
             // 
             // btnHinzufügen
             // 
-            this.btnHinzufügen.Location = new System.Drawing.Point(332, 53);
+            this.btnHinzufügen.Location = new System.Drawing.Point(329, 63);
             this.btnHinzufügen.Margin = new System.Windows.Forms.Padding(4);
             this.btnHinzufügen.Name = "btnHinzufügen";
             this.btnHinzufügen.Size = new System.Drawing.Size(100, 28);
@@ -78,23 +78,23 @@
             // 
             this.lbGermanWords.FormattingEnabled = true;
             this.lbGermanWords.ItemHeight = 16;
-            this.lbGermanWords.Location = new System.Drawing.Point(73, 318);
+            this.lbGermanWords.Location = new System.Drawing.Point(73, 190);
             this.lbGermanWords.Margin = new System.Windows.Forms.Padding(4);
             this.lbGermanWords.Name = "lbGermanWords";
-            this.lbGermanWords.Size = new System.Drawing.Size(159, 116);
+            this.lbGermanWords.Size = new System.Drawing.Size(159, 244);
             this.lbGermanWords.TabIndex = 4;
             this.lbGermanWords.SelectedIndexChanged += new System.EventHandler(this.lbGermanWords_SelectedIndexChanged);
             // 
             // tbTranslation
             // 
-            this.tbTranslation.Location = new System.Drawing.Point(560, 318);
+            this.tbTranslation.Location = new System.Drawing.Point(319, 190);
             this.tbTranslation.Name = "tbTranslation";
             this.tbTranslation.Size = new System.Drawing.Size(192, 22);
             this.tbTranslation.TabIndex = 5;
             // 
             // btnExportCSV
             // 
-            this.btnExportCSV.Location = new System.Drawing.Point(332, 89);
+            this.btnExportCSV.Location = new System.Drawing.Point(332, 98);
             this.btnExportCSV.Name = "btnExportCSV";
             this.btnExportCSV.Size = new System.Drawing.Size(100, 30);
             this.btnExportCSV.TabIndex = 6;
@@ -106,7 +106,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 485);
             this.Controls.Add(this.btnExportCSV);
             this.Controls.Add(this.tbTranslation);
             this.Controls.Add(this.lbGermanWords);
