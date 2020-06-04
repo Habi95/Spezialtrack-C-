@@ -75,5 +75,19 @@ namespace WoerterBuch
                 germanToEnglishDict.Add(wordColumns[0],wordColumns[1]);
             }
         }
+
+        private void btnSearch_Click(object sender, EventArgs e)
+        {
+            string germanWord = tbGermanWord.Text;
+            string englishWord;
+        
+            if (!string.IsNullOrEmpty(germanWord))
+            {
+              
+                tbTranslation.Text = germanToEnglishDict[germanWord];
+                
+
+            }
+        }
     }
 }

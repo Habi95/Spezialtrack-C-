@@ -35,6 +35,7 @@
             this.lbGermanWords = new System.Windows.Forms.ListBox();
             this.tbTranslation = new System.Windows.Forms.TextBox();
             this.btnExportCSV = new System.Windows.Forms.Button();
+            this.btnSearch = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnHinzufügen
@@ -102,11 +103,22 @@
             this.btnExportCSV.UseVisualStyleBackColor = true;
             this.btnExportCSV.Click += new System.EventHandler(this.btnExportCSV_Click);
             // 
+            // btnSearch
+            // 
+            this.btnSearch.Location = new System.Drawing.Point(332, 134);
+            this.btnSearch.Name = "btnSearch";
+            this.btnSearch.Size = new System.Drawing.Size(97, 33);
+            this.btnSearch.TabIndex = 9;
+            this.btnSearch.Text = "Suchen";
+            this.btnSearch.UseVisualStyleBackColor = true;
+            this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
+            // 
             // BackGround
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 485);
+            this.Controls.Add(this.btnSearch);
             this.Controls.Add(this.btnExportCSV);
             this.Controls.Add(this.tbTranslation);
             this.Controls.Add(this.lbGermanWords);
@@ -131,6 +143,7 @@
         private System.Windows.Forms.ListBox lbGermanWords;
         private System.Windows.Forms.TextBox tbTranslation;
         private System.Windows.Forms.Button btnExportCSV;
+        private System.Windows.Forms.Button btnSearch;
     }
 }
 
